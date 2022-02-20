@@ -114,14 +114,15 @@ img {
   padding-bottom: 30px;
 }
 
-.section-hero::before {
-  background: #2f303a66;
-}
-
 .section-hero {
-  background-image: url(../img/background.jpg);
-  background-repeat: no-repeat;
+  background-image: linear-gradient(
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url(../img/background.jpg);
+  background-color: #2f303a66;
   background-position: center;
+  background-size: cover;
 }
 
 .div-hero {
