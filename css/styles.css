@@ -114,8 +114,14 @@ img {
   padding-bottom: 30px;
 }
 
+.section-hero::before {
+  background: #2f303a66;
+}
+
 .section-hero {
-  background: #2f303a;
+  background-image: url(../img/background.png);
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .div-hero {
@@ -177,6 +183,23 @@ img {
 .list-work {
   width: 270px;
   list-style: none;
+}
+
+.div-grup {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 120px;
+  width: 270px;
+  background: #f5f4fa;
+  border-radius: 4px;
+  margin-bottom: 30px;
+}
+
+.peculiarities-grup {
+  display: flex;
+  width: 70px;
+  height: 70px;
 }
 
 .peculiarities-work {
