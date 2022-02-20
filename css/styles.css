@@ -1,3 +1,9 @@
+:root {
+  --secondary-text-color: #ffffff;
+  --primary-text-color: #afb1b8;
+  --accent-color: #2196f3;
+}
+
 body {
   font-family: "Roboto", sans-serif;
 }
@@ -43,6 +49,18 @@ img {
   border-bottom: 1px solid #ececec;
 }
 
+.icon-header-tell {
+  width: 10px;
+  height: 16px;
+  color: #757575;
+}
+
+.icon-header-maill {
+  width: 16px;
+  height: 12px;
+  color: #757575;
+}
+
 .nav-header-lists {
   display: flex;
   align-items: center;
@@ -55,6 +73,11 @@ img {
 .nav-header-contacts {
   display: flex;
   align-items: center;
+}
+
+.icon-header {
+  width: 10px;
+  height: 16px;
 }
 
 .div-contacts {
@@ -275,6 +298,37 @@ img {
   margin-bottom: 5px;
 }
 
+.social-list {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  margin-top: 16px;
+}
+
+.social-list-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  background: #ffffff;
+  border-radius: 50%;
+}
+
+.social-list-link:focus,
+.social-list-link:hover {
+  background: #2196f3;
+}
+
+.social-list-link:focus .social-list-icon,
+.social-list-link:hover .social-list-icon {
+  fill: var(--secondary-text-color);
+}
+
+.social-list-item:not(:last-child) {
+  margin-right: 10px;
+}
+
 .our-team {
   background: #f5f4fa;
   padding-bottom: 94px;
@@ -287,7 +341,7 @@ img {
 
 .team {
   width: 270px;
-  height: 368px;
+  height: 428px;
   left: 515px;
   top: 1635px;
   background: #ffffff;
@@ -305,6 +359,17 @@ img {
   color: #757575;
   margin-top: 5px;
 }
+
+.vektor-customers {
+  color: #000000;
+}
+
+.box-customers {
+  border: 1px solid #afb1b8;
+  box-sizing: border-box;
+  border-radius: 4px;
+}
+
 .gps {
   font-style: normal;
   font-weight: normal;
