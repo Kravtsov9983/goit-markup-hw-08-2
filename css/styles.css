@@ -53,12 +53,14 @@ img {
   width: 10px;
   height: 16px;
   margin-right: 10px;
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .icon-header-maill {
   width: 16px;
   height: 12px;
   margin-right: 10px;
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .nav-header-lists {
@@ -131,7 +133,7 @@ img {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: #757575;
+  color: #212121;;
   text-decoration: none;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -633,9 +635,6 @@ img {
 
 .links-foto-portfolio:focus,
 .links-foto-portfolio:hover {
-  background: #ffffff;
-  border: 1px solid #eeeeee;
-  box-sizing: border-box;
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
 }
