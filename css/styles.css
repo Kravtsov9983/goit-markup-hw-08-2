@@ -435,7 +435,7 @@ img {
 .footer-nav {
   display: flex;
   flex-direction: column;
-  padding-top: 10px;
+  margin-top: 20px;
 }
 
 .foot-mail,
