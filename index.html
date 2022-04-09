@@ -502,6 +502,23 @@
             </li>
           </ul>
         </div>
+        <form class="footer-form-wraper">
+          <label class="footer-label" for=""
+            ><span class="footer-label-span">Подпишитесь на рассылку</span>
+            <input
+              class="footer-input-maill"
+              type="text"
+              placeholder="E-mail"
+              required
+            />
+          </label>
+          <button type="submit" class="footer-button-subscriber">
+            <span class="footer-button">Подписаться</span>
+            <svg class="footer-vector-subscriber" width="24px" height="24px">
+              <use href="/img/sprite.svg#icon-footer-subscriber"></use>
+            </svg>
+          </button>
+        </form>
       </div>
     </footer>
     <div class="backdrop is-hidden" data-modal>
@@ -511,6 +528,79 @@
             <use href="./img/sprite.svg#close-icon"></use>
           </svg>
         </button>
+        <p class="contacts-form-description">
+          Оставьте свои данные, мы вам перезвоним
+        </p>
+        <form class="contacts-form">
+          <label class="contact-form-field">
+            <span class="contact-form-name">Имя</span>
+            <span class="contact-form-span">
+              <input
+                name="user_name"
+                class="contact-form-input"
+                type="text"
+                required
+              />
+              <svg class="contact-form-icon" width="18" height="18">
+                <use href="./img/sprite.svg#icon-name-form"></use>
+              </svg>
+            </span>
+          </label>
+          <label class="contact-form-field">
+            <span class="contact-form-name">Телефон</span>
+            <span class="contact-form-span">
+              <input
+                name="user_phone"
+                class="contact-form-input"
+                type="tel"
+                required
+              />
+              <svg class="contact-form-icon" width="18" height="18">
+                <use href="./img/sprite.svg#icon-tel-form"></use>
+              </svg>
+            </span>
+          </label>
+          <label class="contact-form-field">
+            <span class="contact-form-name">Почта</span>
+            <span class="contact-form-span">
+              <input
+                name="user_maill"
+                class="contact-form-input"
+                type="text"
+                required
+              />
+              <svg class="contact-form-icon" width="18" height="18">
+                <use href="./img/sprite.svg#icon-mail-form"></use>
+              </svg>
+            </span>
+          </label>
+          <label class="contact-form-field">
+            <span class="contact-form-name">Комментарий</span>
+            <textarea
+              name="user_coment"
+              class="contact-form-comment"
+              placeholder="Введите текст"
+            ></textarea>
+          </label>
+          <div class="contact-form-checkbox-wrapper">
+            <input
+              name="accept_policy"
+              type="checkbox"
+              class="contact-form-checkbox"
+              id="polocy-checkbox"
+              required
+            />
+            <label for="polocy-checkbox" class="contact-form-checkbox-label">
+              Соглашаюсь с рассылкой и принимаю&nbsp
+              <a class="contact-form-checkbox-link" href=""
+                >Условия договора</a
+              ></label
+            >
+          </div>
+          <button type="submit" class="contact-form-submit-btn">
+            Отправить
+          </button>
+        </form>
       </div>
     </div>
 
