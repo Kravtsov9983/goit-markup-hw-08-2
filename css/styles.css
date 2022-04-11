@@ -844,6 +844,11 @@ img {
   cursor: pointer;
 }
 
+.modal-close-btn:focus .modal-close-icon,
+.modal-close-btn:hover .modal-close-icon{
+  fill: #2196f3;
+}
+
 .contacts-form-description{
   font-family: "Roboto",sans-serif;
   font-weight: 700;
@@ -963,16 +968,6 @@ img {
   border: none;
   background-image: url("../img/icon-check.jpg");
 }
-
-/* .contact-form-icon-checkbox{
-  position: absolute;
-  top: 51%;
-  left: 0;
-  margin-right: 8px;
-  cursor: pointer;
-  background-color: #ffffff;
-  fill: #ffffff;
-} */
 
 .contact-form-checkbox-label::before{
   display: inline-block;
