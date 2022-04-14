@@ -1,0 +1,54 @@
+.div-works {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-between;
+}
+
+.peculiarities {
+                padding-top: 94px;
+                padding-bottom: 94px;
+}
+
+.list-work {
+                width: 270px;
+                list-style: none;
+}
+
+.div-grup {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                height: 120px;
+                width: 270px;
+                background: #f5f4fa;
+                border-radius: 4px;
+                margin-bottom: 30px;
+}
+
+.peculiarities-grup {
+                display: flex;
+                width: 70px;
+                height: 70px;
+}
+
+.peculiarities-work {
+                font-style: normal;
+                font-weight: bold;
+                font-size: 14px;
+                line-height: 1.14;
+                letter-spacing: 0.03em;
+                text-transform: uppercase;
+                color: #212121;
+}
+
+.work {
+                margin-bottom: 10px;
+}
+
+.work-description {
+                font-weight: normal;
+                font-size: 14px;
+                line-height: 1.71;
+                letter-spacing: 0.03em;
+                color: #757575;
+}
