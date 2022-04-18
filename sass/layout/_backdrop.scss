@@ -52,9 +52,7 @@
 
 .contacts-form-description {
                 font-family: "Roboto", sans-serif;
-                font-weight: 700;
-                font-size: 20px;
-                line-height: 1.15;
+                @include font(20px 700 23px);
                 text-align: center;
                 letter-spacing: 0.03em;
                 color: #212121;
@@ -83,9 +81,7 @@
 
 .contact-form-name {
                 font-family: "Roboto", sans-serif;
-                font-weight: 400;
-                font-size: 12px;
-                line-height: 1.16;
+                @include font(12px 400 14px);
                 letter-spacing: 0.01em;
                 color: #757575;
                 display: block;
@@ -110,9 +106,7 @@
                 
                 &::placeholder {
                                 font-family: "Roboto", sans-serif;
-                                font-weight: 400;
-                                font-size: 14px;
-                                line-height: 1.14;
+                                @include font(14px 400 16px);
                                 letter-spacing: 0.01em;
                                 color: rgba(117, 117, 117, 0.5);
                 }
@@ -141,9 +135,7 @@
                 display: flex;
                 align-items: center;
                 justify-content: center;
-                font-weight: 400;
-                font-size: 14px;
-                line-height: 1.71;
+                @include font(14px 400 24px);
                 letter-spacing: 0.03em;
                 color: #757575;
 
@@ -181,9 +173,7 @@
 
 .contact-form-submit-btn {
                 font-family: "Roboto", sans-serif;
-                font-weight: 700;
-                font-size: 16px;
-                line-height: 1.87;
+                @include font(16px 700 30px);
                 display: flex;
                 margin: 0 auto;
                 margin-top: 30px;

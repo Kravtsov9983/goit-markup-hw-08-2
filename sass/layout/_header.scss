@@ -86,9 +86,7 @@
 .nav-header-list-link {
                 position: relative;
                 font-style: normal;
-                font-weight: 500;
-                font-size: 14px;
-                line-height: 1.14;
+                @include font(14px 500 16px);
                 letter-spacing: 0.02em;
                 color: #212121;
                 ;

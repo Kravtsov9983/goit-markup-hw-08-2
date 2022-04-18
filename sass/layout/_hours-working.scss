@@ -22,9 +22,7 @@
                 left: 0;
                 color: var(--secondary-text-color);
                 background-color: rgba(47, 48, 58, 0.8);
-                font-weight: 700;
-                font-size: 14px;
-                line-height: 1.14;
+                @include font(14px 700 16px);
                 letter-spacing: 0.03em;
                 text-align: center;
                 padding: 26px 82px;
