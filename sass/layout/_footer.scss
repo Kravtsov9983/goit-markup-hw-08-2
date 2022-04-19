@@ -1,4 +1,4 @@
-.worker-name-footer {
+.footer__links--name-links {
                 font-style: normal;
                 font-weight: bold;
                 font-size: 14px;
@@ -8,7 +8,7 @@
                 color: var(--secondary-text-color);
 }
 
-.footer-div-links {
+.footer__links {
                 display: flex;
                 flex-direction: column;
                 align-items: flex-start;
@@ -17,7 +17,7 @@
                 padding-top: 12px;
 }
 
-.footer-div-container {
+.footer__div-container {
                 display: flex;
                 justify-content: space-between;
 }
@@ -74,7 +74,7 @@
                 }
 }
 
-.footer-form-wraper {
+.footer__div-container--footer-form-wraper {
                 display: flex;
                 padding-top: 12px;
                 margin-left: 92px;
@@ -126,13 +126,13 @@
                 padding-bottom: 10px;
 }
 
-.lower-main-line {
+.footer {
                 background: #2f303a;
                 padding-top: 60px;
                 padding-bottom: 60px;
 }
 
-.logo-footer-WebStudio {
+.footer__logo {
                 font-family: "Raleway", sans-serif;
                 font-style: normal;
                 font-weight: bold;
