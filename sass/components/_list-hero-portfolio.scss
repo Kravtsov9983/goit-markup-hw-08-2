@@ -1,77 +1,77 @@
 .list-hero {
-                list-style: none;
-                display: flex;
-                flex-wrap: wrap;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .foto-portfolio {
-                width: 370px;
-                height: 404px;
-                background: var(--secondary-text-color);
-                border: 1px solid #eeeeee;
-                box-sizing: border-box;
-                cursor: pointer;
+  width: 370px;
+  height: 404px;
+  background: var(--secondary-text-color);
+  border: 1px solid #eeeeee;
+  box-sizing: border-box;
+  cursor: pointer;
 
-                &:not(:nth-child(3n)) {
-                                margin-right: 30px;
-                }
-                
-                &:nth-last-child(n + 4) {
-                                margin-bottom: 30px;
-                }
+  &:not(:nth-child(3n)) {
+    margin-right: 30px;
+  }
+
+  &:nth-last-child(n + 4) {
+    margin-bottom: 30px;
+  }
 }
 
 .links-foto-portfolio {
-                display: block;
-                text-decoration: none;
+  display: block;
+  text-decoration: none;
 
-                &:focus,
-                &:hover {
-                                box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
-                                                1px 4px 6px rgba(0, 0, 0, 0.16);
-                }
+  &:focus,
+  &:hover {
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+      1px 4px 6px rgba(0, 0, 0, 0.16);
+  }
 }
 
 .box-portolio {
-                position: relative;
-                overflow: hidden;
+  position: relative;
+  overflow: hidden;
 }
 
 .description-foto-portfolio {
-                position: absolute;
-                background: rgba(33, 150, 243, 0.902);
-                left: 0;
-                top: 0;
-                text-align: center;
-                padding: 63px 24px;
-                width: 100%;
-                height: 100%;
-                @include font(18px 400 28px);
-                letter-spacing: 0.03em;
-                color: var(--secondary-text-color);
-                transform: translateY(100%);
-                transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  position: absolute;
+  background: rgba(33, 150, 243, 0.902);
+  left: 0;
+  top: 0;
+  text-align: center;
+  padding: 63px 24px;
+  width: 100%;
+  height: 100%;
+  @include font(18px, 400, 28px);
+  letter-spacing: 0.03em;
+  color: var(--secondary-text-color);
+  transform: translateY(100%);
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
-                .links-foto-portfolio:focus &,
-                .links-foto-portfolio:hover & {
-                                text-align: start;
-                                transform: translateY(0%);
-                }
+  .links-foto-portfolio:focus &,
+  .links-foto-portfolio:hover & {
+    text-align: start;
+    transform: translateY(0%);
+  }
 }
 
 .name-project {
-                font-style: normal;
-                font-weight: bold;
-                font-size: 18px;
-                line-height: 2;
-                letter-spacing: 0.06em;
-                color: #212121;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: #212121;
 }
 
 .description-project {
-                font-weight: normal;
-                font-size: 16px;
-                line-height: 1.87;
-                letter-spacing: 0.03em;
-                color: #757575;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+  color: #757575;
 }

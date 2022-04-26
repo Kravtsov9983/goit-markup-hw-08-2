@@ -21,10 +21,10 @@
     <link rel="stylesheet" href="./css/main.min.css" />
   </head>
   <body>
-    <header class="header">
-      <div class="header-container container">
-        <a class="header__logo-webstudio" href="./index.html"
-          ><span class="colortext-logo">Web</span>Studio</a
+    <header class="header container header-container">
+      <div class="header__container">
+        <a class="header__logo-webstudio" href="./index.html">
+          <span class="colortext-logo">Web</span>Studio</a
         >
         <nav class="nav-header">
           <ul class="nav-header__lists">
@@ -49,7 +49,8 @@
               <a
                 class="nav-header-link contacts"
                 href="mailto:info@devstudio.com"
-                ><svg class="icon-header-maill">
+              >
+                <svg class="icon-header-maill">
                   <use
                     class="nav-header-link-vector"
                     href="./img/sprite.svg#envelope"
@@ -59,8 +60,8 @@
               >
             </li>
             <li class="nav-header__list">
-              <a class="nav-header-link contacts" href="tel:+380961111111"
-                ><svg class="icon-header-tell" width="16px" height="12px">
+              <a class="nav-header-link contacts" href="tel:+380961111111">
+                <svg class="icon-header-tell" width="16px" height="12px">
                   <use
                     class="nav-header-link-vector"
                     href="./img/sprite.svg#smartphone"
@@ -70,6 +71,71 @@
               >
             </li>
           </ul>
+        </div>
+        <button type="button" class="mobile-menu-btn" data-menu-open>
+          <svg class="mobile-menu-btn__icon" width="40" height="40">
+            <use href="./img/sprite.svg#burger-menu-icon"></use>
+          </svg>
+        </button>
+      </div>
+      <div class="mobile-menu" data-menu>
+        <div class="header__container mobile-menu__container">
+          <button type="button" class="mobile-menu__close-btn" data-menu-close>
+            <svg class="mobile-menu__close-icon" width="40" height="40">
+              <use href="./img/sprite.svg#burger-icon-close"></use>
+            </svg>
+          </button>
+          <div class="mobile-menu__div">
+            <ul class="mobile-menu__lists">
+              <li class="mobile-menu__lists--list">
+                <a
+                  class="mobile-menu__lists--link mobile-menu__link-color"
+                  href="./index.html"
+                  >Студия</a
+                >
+              </li>
+              <li class="mobile-menu__lists--list">
+                <a class="mobile-menu__lists--link" href="./portfolio.html"
+                  >Портфолио</a
+                >
+              </li>
+              <li class="mobile-menu__lists--list">
+                <a class="mobile-menu__lists--link" href="">Контакты</a>
+              </li>
+            </ul>
+            <ul class="mobile-menu__contacts">
+              <li class="mobile-menu__contacts-list mobile-menu-tell-list">
+                <a
+                  class="mobile-menu__contacts-link mobile-menu-tell"
+                  href="tel:+380961111111"
+                  >+38 096 111 11 11</a
+                >
+              </li>
+              <li class="mobile-menu__contacts-list mobile-menu-maill-list">
+                <a
+                  class="mobile-menu__contacts-link mobile-menu-maill"
+                  href="mailto:info@devstudio.com"
+                  >info@devstudio.com</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="mobile-menu__social-media">
+            <ul class="social-media-lists">
+              <li class="social-media-list">
+                <a class="social-media-link" href="">Instagram </a>
+              </li>
+              <li class="social-media-list">
+                <a class="social-media-link" href="">Twitter </a>
+              </li>
+              <li class="social-media-list">
+                <a class="social-media-link" href="">Facebook</a>
+              </li>
+              <li class="social-media-list">
+                <a class="social-media-link" href="">LinkedIn </a>
+              </li>
+            </ul>
+          </div>
         </div>
       </div>
     </header>
@@ -345,5 +411,6 @@
         </form>
       </div>
     </footer>
+    <script src="./js/menu.js"></script>
   </body>
 </html>

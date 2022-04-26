@@ -12,7 +12,7 @@
 .button-portfolio {
                 font-family: "Roboto", sans-serif;
                 font-style: normal;
-                @include font(16px 500 26px);
+                @include font(16px, 500, 26px);
                 text-align: center;
                 letter-spacing: 0.03em;
                 color: #212121;
