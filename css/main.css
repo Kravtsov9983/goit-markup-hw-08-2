@@ -1147,6 +1147,7 @@ img {
     fill: #212121;
   }
   .mobile-menu {
+    z-index: 2;
     position: absolute;
     top: 0;
     left: 0;
@@ -1383,6 +1384,9 @@ img {
     display: none;
   }
   .mobile-menu {
+    display: none;
+  }
+  .hours-working {
     display: none;
   }
 }
