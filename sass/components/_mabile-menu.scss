@@ -1,4 +1,9 @@
 @media screen and (max-width: 767px) {
+  body {
+    width: 480px;
+    margin: 0 auto;
+  }
+
   .header__container {
     width: 480px;
     margin-left: auto;
