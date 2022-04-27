@@ -997,7 +997,7 @@ img {
     margin: 0 auto;
   }
   .header__container {
-    width: 480px;
+    width: 450px;
     margin-left: auto;
     margin-right: auto;
   }
@@ -1145,7 +1145,6 @@ img {
   }
   .mobile-menu-btn__icon {
     fill: #212121;
-    margin-right: 15px;
   }
   .mobile-menu {
     position: absolute;
@@ -1214,8 +1213,6 @@ img {
   }
   .container {
     width: 480px;
-    padding-left: 15px;
-    padding-right: 15px;
     margin: 0 auto;
   }
   .div-works {
@@ -1357,11 +1354,24 @@ img {
     margin-right: 7px;
   }
   .main-hero-work-portfolio {
+    width: 480px;
+    padding-left: 15px;
+    padding-right: 15px;
     padding-top: 60px;
     padding-bottom: 60px;
   }
   .all-button {
     margin-bottom: 40px;
+  }
+  .foto-portfolio {
+    width: 450px;
+  }
+  .foto-portfolio:not(:nth-child(3n)) {
+    margin-right: 0;
+  }
+  .list-hero {
+    flex-direction: column;
+    flex-wrap: nowrap;
   }
 }
 
