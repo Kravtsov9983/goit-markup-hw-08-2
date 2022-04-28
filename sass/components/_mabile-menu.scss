@@ -1,9 +1,4 @@
 @media screen and (max-width: 767px) {
-  body {
-    width: 480px;
-    margin: 0 auto;
-  }
-
   .nav-header {
     display: none;
   }
@@ -213,7 +208,6 @@
     padding-top: 48px;
     padding-bottom: 48px;
     padding-left: 40px;
-    padding-right: 80px;
   }
 
   .hero-block {
@@ -251,6 +245,8 @@
 
   .container {
     width: 480px;
+    padding-left: 15px;
+    padding-right: 15px;
     margin: 0 auto;
   }
 
@@ -406,7 +402,6 @@
 
   .modal {
     width: 450px;
-    height: 608px;
     padding: 40px;
   }
 
@@ -544,10 +539,6 @@
     margin-bottom: 60px;
   }
 
-  .our-team-peculiarities {
-    padding-top: 60px;
-  }
-
   .div-grup {
     width: 354px;
   }
@@ -682,6 +673,48 @@
     padding-top: 60px;
     padding-bottom: 60px;
   }
+
+  .all-button {
+    margin-bottom: 30px;
+  }
+
+  .hero-description {
+    @include font(26px, 900, 42px);
+  }
+
+  .modal {
+    width: 450px;
+  }
+
+  .contact-form-checkbox-label {
+    @include font(12px, 400, 14px);
+  }
+
+  .contact-form-checkbox-label::before {
+    margin-right: 7px;
+  }
+
+  .peculiarities {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+
+  .list-work:nth-child(-n + 2) {
+    margin-bottom: 30px;
+  }
+
+  .container-team {
+    padding-top: 60px;
+  }
+
+  .section-clients {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+
+  .our-team-peculiarities {
+    @include font(28px, 700, 33px);
+  }
 }
 
 @media screen and (min-width: 480px) {
@@ -709,6 +742,8 @@
     width: 1200px;
     margin-left: auto;
     margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
   }
 
   .header-container {
@@ -735,5 +770,9 @@
 
   .foto-portfolio-tablet {
     width: 370px;
+  }
+
+  .list-work:not(:last-child) {
+    margin-right: 30px;
   }
 }
