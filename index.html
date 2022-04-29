@@ -108,37 +108,39 @@
                 <a class="mobile-menu__lists--link" href="">Контакты</a>
               </li>
             </ul>
-            <ul class="mobile-menu__contacts">
-              <li class="mobile-menu__contacts-list mobile-menu-tell-list">
-                <a
-                  class="mobile-menu__contacts-link mobile-menu-tell"
-                  href="tel:+380961111111"
-                  >+38 096 111 11 11</a
-                >
-              </li>
-              <li class="mobile-menu__contacts-list mobile-menu-maill-list">
-                <a
-                  class="mobile-menu__contacts-link mobile-menu-maill"
-                  href="mailto:info@devstudio.com"
-                  >info@devstudio.com</a
-                >
-              </li>
-            </ul>
-            <div class="mobile-menu__social-media">
-              <ul class="social-media-lists">
-                <li class="social-media-list">
-                  <a class="social-media-link" href="">Instagram </a>
+            <div>
+              <ul class="mobile-menu__contacts">
+                <li class="mobile-menu__contacts-list mobile-menu-tell-list">
+                  <a
+                    class="mobile-menu__contacts-link mobile-menu-tell"
+                    href="tel:+380961111111"
+                    >+38 096 111 11 11</a
+                  >
                 </li>
-                <li class="social-media-list">
-                  <a class="social-media-link" href="">Twitter </a>
-                </li>
-                <li class="social-media-list">
-                  <a class="social-media-link" href="">Facebook</a>
-                </li>
-                <li class="social-media-list">
-                  <a class="social-media-link" href="">LinkedIn </a>
+                <li class="mobile-menu__contacts-list mobile-menu-maill-list">
+                  <a
+                    class="mobile-menu__contacts-link mobile-menu-maill"
+                    href="mailto:info@devstudio.com"
+                    >info@devstudio.com</a
+                  >
                 </li>
               </ul>
+              <div class="mobile-menu__social-media">
+                <ul class="social-media-lists">
+                  <li class="social-media-list">
+                    <a class="social-media-link" href="">Instagram </a>
+                  </li>
+                  <li class="social-media-list">
+                    <a class="social-media-link" href="">Twitter </a>
+                  </li>
+                  <li class="social-media-list">
+                    <a class="social-media-link" href="">Facebook</a>
+                  </li>
+                  <li class="social-media-list">
+                    <a class="social-media-link" href="">LinkedIn </a>
+                  </li>
+                </ul>
+              </div>
             </div>
           </div>
         </div>
@@ -272,13 +274,62 @@
           <ul class="our-team-list">
             <li class="our-team-product-designer team">
               <div class="team-box">
-                <img
-                  class="product-designer-foto foto-mobil"
-                  src="./img/foto-1.jpg"
-                  alt="Игорь Демьяненко"
-                  width="270"
-                  height="260"
-                />
+                <picture>
+                  <source
+                    srcset="
+                      ./img/foto-desctop(1).webp    1x,
+                      ./img/foto-desctop@2x(1).webp 2x
+                    "
+                    media="(min-width: 1200px)"
+                    type="image/webp"
+                  />
+                  <source
+                    srcset="
+                      ./img/foto-desctop(1).jpg    1x,
+                      ./img/foto-desctop@2x(1).jpg 2x
+                    "
+                    media="(min-width: 1200px)"
+                  />
+
+                  <source
+                    srcset="
+                      ./img/foto-tablet(1).webp    1x,
+                      ./img/foto-tablet@2x(1).webp 2x
+                    "
+                    media="(min-width: 768px)"
+                    type="image/webp"
+                  />
+                  <source
+                    srcset="
+                      ./img/foto-tablet(1).jpg      1x,
+                      ./img/foto-tablet@2x(1).jpg2x
+                    "
+                    media="(min-width: 768px)"
+                  />
+
+                  <source
+                    srcset="
+                      ./img/foto-mobile(1).webp    1x,
+                      ./img/foto-mobile@2x(1).webp 2x
+                    "
+                    media="(max-width: 767px)"
+                    type="image/webp"
+                  />
+                  <source
+                    srcset="
+                      ./img/foto-mobile(1).jpg    1x,
+                      ./img/foto-mobile@2x(1).jpg 2x
+                    "
+                    media="(max-width: 767px)"
+                  />
+                  <img
+                    class="product-designer-foto foto-mobil"
+                    src="./img/foto-1.jpg"
+                    alt="Игорь Демьяненко"
+                    width="270"
+                    height="260"
+                  />
+                </picture>
                 <div class="foto-description">
                   <h3 class="worker-name">Игорь Демьяненко</h3>
                   <p class="our-team-position">Product Designer</p>
@@ -317,13 +368,62 @@
             </li>
             <li class="our-team-product-frontend-developer team">
               <div class="team-box">
-                <img
-                  class="frontend-developer-foto foto-mobil"
-                  src="./img/foto-2.jpg"
-                  alt="Ольга Репина"
-                  width="270"
-                  height="260"
-                />
+                <picture>
+                  <source
+                    srcset="
+                      ./img/foto-desctop(2).webp    1x,
+                      ./img/foto-desctop@2x(2).webp 2x
+                    "
+                    media="(min-width: 1200px)"
+                    type="image/webp"
+                  />
+                  <source
+                    srcset="
+                      ./img/foto-desctop(2).jpg    1x,
+                      ./img/foto-desctop@2x(2).jpg 2x
+                    "
+                    media="(min-width: 1200px)"
+                  />
+
+                  <source
+                    srcset="
+                      ./img/foto-tablet(2).webp    1x,
+                      ./img/foto-tablet@2x(2).webp 2x
+                    "
+                    media="(min-width: 768px)"
+                    type="image/webp"
+                  />
+                  <source
+                    srcset="
+                      ./img/foto-tablet(2).jpg      1x,
+                      ./img/foto-tablet@2x(2).jpg2x
+                    "
+                    media="(min-width: 768px)"
+                  />
+
+                  <source
+                    srcset="
+                      ./img/foto-mobile(2).webp    1x,
+                      ./img/foto-mobile@2x(2).webp 2x
+                    "
+                    media="(max-width: 767px)"
+                    type="image/webp"
+                  />
+                  <source
+                    srcset="
+                      ./img/foto-mobile(2).jpg    1x,
+                      ./img/foto-mobile@2x(2).jpg 2x
+                    "
+                    media="(max-width: 767px)"
+                  />
+                  <img
+                    class="frontend-developer-foto foto-mobil"
+                    src="./img/foto-2.jpg"
+                    alt="Ольга Репина"
+                    width="270"
+                    height="260"
+                  />
+                </picture>
                 <div class="foto-description">
                   <h3 class="worker-name">Ольга Репина</h3>
                   <p class="our-team-position">Frontend Developer</p>
@@ -362,13 +462,62 @@
             </li>
             <li class="our-team-product-marketing team">
               <div class="team-box">
-                <img
-                  class="product-marketing-foto foto-mobil"
-                  src="./img/foto-3.jpg"
-                  alt="Николай Тарасов"
-                  width="270"
-                  height="260"
-                />
+                <picture>
+                  <source
+                    srcset="
+                      ./img/foto-desctop(3).webp    1x,
+                      ./img/foto-desctop@2x(3).webp 2x
+                    "
+                    media="(min-width: 1200px)"
+                    type="image/webp"
+                  />
+                  <source
+                    srcset="
+                      ./img/foto-desctop(3).jpg    1x,
+                      ./img/foto-desctop@2x(3).jpg 2x
+                    "
+                    media="(min-width: 1200px)"
+                  />
+
+                  <source
+                    srcset="
+                      ./img/foto-tablet(3).webp    1x,
+                      ./img/foto-tablet@2x(3).webp 2x
+                    "
+                    media="(min-width: 768px)"
+                    type="image/webp"
+                  />
+                  <source
+                    srcset="
+                      ./img/foto-tablet(3).jpg      1x,
+                      ./img/foto-tablet@2x(3).jpg2x
+                    "
+                    media="(min-width: 768px)"
+                  />
+
+                  <source
+                    srcset="
+                      ./img/foto-mobile(3).webp    1x,
+                      ./img/foto-mobile@2x(3).webp 2x
+                    "
+                    media="(max-width: 767px)"
+                    type="image/webp"
+                  />
+                  <source
+                    srcset="
+                      ./img/foto-mobile(3).jpg    1x,
+                      ./img/foto-mobile@2x(3).jpg 2x
+                    "
+                    media="(max-width: 767px)"
+                  />
+                  <img
+                    class="product-marketing-foto foto-mobil"
+                    src="./img/foto-3.jpg"
+                    alt="Николай Тарасов"
+                    width="270"
+                    height="260"
+                  />
+                </picture>
                 <div class="foto-description">
                   <h3 class="worker-name">Николай Тарасов</h3>
                   <p class="our-team-position">Marketing</p>
@@ -407,13 +556,62 @@
             </li>
             <li class="our-team-designer team">
               <div class="team-box">
-                <img
-                  class="designer-foto foto-mobil"
-                  src="./img/foto-4.jpg"
-                  alt="Михаил Ермаков"
-                  width="270"
-                  height="260"
-                />
+                <picture>
+                  <source
+                    srcset="
+                      ./img/foto-desctop(4).webp    1x,
+                      ./img/foto-desctop@2x(4).webp 2x
+                    "
+                    media="(min-width: 1200px)"
+                    type="image/webp"
+                  />
+                  <source
+                    srcset="
+                      ./img/foto-desctop(4).jpg    1x,
+                      ./img/foto-desctop@2x(4).jpg 2x
+                    "
+                    media="(min-width: 1200px)"
+                  />
+
+                  <source
+                    srcset="
+                      ./img/foto-tablet(4).webp    1x,
+                      ./img/foto-tablet@2x(4).webp 2x
+                    "
+                    media="(min-width: 768px)"
+                    type="image/webp"
+                  />
+                  <source
+                    srcset="
+                      ./img/foto-tablet(4).jpg    1x,
+                      ./img/foto-tablet@2x(4).jpg 2x
+                    "
+                    media="(min-width: 768px)"
+                  />
+
+                  <source
+                    srcset="
+                      ./img/foto-mobile(4).webp    1x,
+                      ./img/foto-mobile@2x(4).webp 2x
+                    "
+                    media="(max-width: 767px)"
+                    type="image/webp"
+                  />
+                  <source
+                    srcset="
+                      ./img/foto-mobile(4).jpg    1x,
+                      ./img/foto-mobile@2x(4).jpg 2x
+                    "
+                    media="(max-width: 767px)"
+                  />
+                  <img
+                    class="designer-foto foto-mobil"
+                    src="./img/foto-4.jpg"
+                    alt="Михаил Ермаков"
+                    width="270"
+                    height="260"
+                  />
+                </picture>
                 <div class="foto-description">
                   <h3 class="worker-name">Михаил Ермаков</h3>
                   <p class="our-team-position">UI Designer</p>

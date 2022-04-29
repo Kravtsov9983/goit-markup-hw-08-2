@@ -71,9 +71,9 @@
     margin-bottom: 32px;
   }
 
-  .mobile-menu__lists--list:last-child {
-    padding-bottom: 302px;
-  }
+  // .mobile-menu__lists--list:last-child {
+  //   padding-bottom: 302px;
+  // }
 
   .mobile-menu__lists--link {
     color: #212121;
@@ -112,6 +112,10 @@
 
   .mobile-menu__contacts-list {
     list-style: none;
+  }
+
+  .mobile-menu {
+    height: 100vh;
   }
 
   .social-media-link {
@@ -198,11 +202,19 @@
   }
 
   .mobile-menu__container {
+    height: 100%;
     position: relative;
     padding-top: 48px;
     padding-bottom: 48px;
     padding-left: 40px;
     padding-right: 40px;
+  }
+
+  .mobile-menu__div {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
   }
 
   .hero-block {
@@ -424,8 +436,8 @@
 
   .main-hero-work-portfolio {
     width: 480px;
-    padding-left: 15px;
-    padding-right: 15px;
+    // padding-left: 15px;
+    // padding-right: 15px;
     padding-top: 60px;
     padding-bottom: 60px;
   }
@@ -449,6 +461,14 @@
 
   .button-portfolio:not(:nth-last-child(-n + 2)) {
     margin-bottom: 15px;
+  }
+
+  // .foto-portfolio-tablet {
+  //   width: 450px;
+  // }
+
+  .main-hero-work-portfolio:not(:last-child) {
+    margin-bottom: 30px;
   }
 }
 
