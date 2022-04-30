@@ -22,6 +22,8 @@
   }
 
   .header__container {
+    width: 480px;
+    margin: 0 auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -289,15 +291,10 @@
 
   .team {
     width: 450px;
-    height: 622px;
   }
 
   .team:not(:last-child) {
     margin-bottom: 30px;
-  }
-
-  .team:last-child {
-    margin-bottom: 60px;
   }
 
   .team:not(:nth-child(4n)) {
@@ -463,12 +460,19 @@
     margin-bottom: 15px;
   }
 
-  // .foto-portfolio-tablet {
-  //   width: 450px;
-  // }
-
   .main-hero-work-portfolio:not(:last-child) {
     margin-bottom: 30px;
+  }
+
+  .our-team {
+    padding: 0;
+  }
+
+  .container-team {
+    margin: 0 auto;
+    padding: 0 15px;
+    padding-top: 60px;
+    padding-bottom: 60px;
   }
 }
 
@@ -532,7 +536,6 @@
 
   .team {
     width: 354px;
-    height: 536px;
     margin-bottom: 30px;
   }
 
@@ -583,6 +586,11 @@
   .div-clients {
     flex-wrap: wrap;
     justify-content: space-between;
+  }
+
+  .clients-title {
+    @include font(28px, 700, 33px);
+    margin-bottom: 30px;
   }
 
   .link-clients {

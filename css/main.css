@@ -476,9 +476,6 @@ img {
 
 .team {
   width: 270px;
-  height: 428px;
-  left: 515px;
-  top: 1635px;
   background: var(--secondary-text-color);
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
@@ -1026,6 +1023,8 @@ img {
     background-color: #ffffff;
   }
   .header__container {
+    width: 480px;
+    margin: 0 auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -1253,13 +1252,9 @@ img {
   }
   .team {
     width: 450px;
-    height: 622px;
   }
   .team:not(:last-child) {
     margin-bottom: 30px;
-  }
-  .team:last-child {
-    margin-bottom: 60px;
   }
   .team:not(:nth-child(4n)) {
     margin-right: 0;
@@ -1400,6 +1395,15 @@ img {
   .main-hero-work-portfolio:not(:last-child) {
     margin-bottom: 30px;
   }
+  .our-team {
+    padding: 0;
+  }
+  .container-team {
+    margin: 0 auto;
+    padding: 0 15px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1199px) {
@@ -1451,7 +1455,6 @@ img {
   }
   .team {
     width: 354px;
-    height: 536px;
     margin-bottom: 30px;
   }
   .our-team-list {
@@ -1491,6 +1494,12 @@ img {
   .div-clients {
     flex-wrap: wrap;
     justify-content: space-between;
+  }
+  .clients-title {
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 1.17857;
+    margin-bottom: 30px;
   }
   .link-clients {
     width: 226px;
